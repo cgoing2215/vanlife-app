@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import VansData from '../VansData'
+import VansData from './VansData'
 
 function Vans() {
 

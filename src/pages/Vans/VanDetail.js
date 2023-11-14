@@ -1,5 +1,5 @@
 import React from 'react'
-import VansData from '../VansData'
+import VansData from './VansData'
 import { useParams } from 'react-router-dom';
 
 
