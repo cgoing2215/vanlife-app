@@ -1,9 +1,9 @@
 import React from 'react'
 
-function HostDashboard() {
+function Dashboard() {
   return (
     <div>HostDashboard</div>
   )
 }
 
-export default HostDashboard
+export default Dashboard
