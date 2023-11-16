@@ -4,10 +4,10 @@ import { Outlet, Link } from "react-router-dom"
 function HostLayout() {
   return (
     <div>
-        <nav>
-            <Link to="./pages/Host">Host</Link>
-            <Link to="./pages/Host/Income">Income</Link>
-            <Link to="./pages/Host/Reviews">Reviews</Link>
+        <nav className="host-nav">
+            <Link to="/Host">Host</Link>
+            <Link to="/Host/Income">Income</Link>
+            <Link to="/Host/Reviews">Reviews</Link>
         </nav>
         <Outlet />
     </div>
